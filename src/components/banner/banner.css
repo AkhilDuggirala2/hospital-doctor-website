@@ -1,0 +1,166 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/bg.web.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  height: 120vh;
+  z-index: 100;
+}
+
+.banner-container img {
+  width: 70%;
+  height: 870px;
+  object-fit: fill;
+  margin-top: 10px;
+  margin-left: 550px;
+}
+
+.banner-text {
+  position: absolute;
+  display: flex;
+  font-size: 80px;
+  font-weight: 600;
+  margin-top: -700px;
+  margin-left: 50px;
+}
+
+.banner-headertext {
+  position: absolute;
+  display: flex;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: -600px;
+  margin-left: 50px;
+}
+
+.banner-paragraph {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -500px;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.banner-button {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: -250px;
+  margin-left: 30px;
+}
+
+.banner-appoint {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  background: #0000ff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.banner-appoint:hover {
+  background: #4169e1;
+}
+
+.banner-department {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  border: 5px solid #0000ff;
+  color: orangered;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-left: 20px;
+}
+
+.banner-department:hover {
+  background: #0000ff;
+}
+
+.banner-hospital {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 80px 5%;
+  margin-top: 50px;
+}
+
+.banner-doctor {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid orangered;
+  box-shadow: 5px 5px orangered;
+  text-align: center;
+}
+
+.banner-doctor-1 {
+  display: block;
+  text-align: center;
+  padding: 10px 40px;
+  border: 5px solid orangered;
+  box-shadow: 5px 5px orangered;
+}
+
+.banner-doctor img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.banner-doctor-1 img {
+  width: 60%;
+  height: 40%;
+  object-fit: fill;
+  margin-top: 5px;
+}
+
+.banner-doctor h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-shadow: 1px 5px #222;
+}
+
+.banner-doctor-1 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-shadow: 1px 5px #222;
+}
+
+.banner-doctor p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.banner-doctor-1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+}
